@@ -1,5 +1,7 @@
 # OPTO - Test .NET Client
 
+By: Rui Mata (a20064431), Rui Joaquim (a22005094)
+
 This project features a sample .NET Client, using Windows Forms, to test basic CRUD functionality of Elasticsearch, by using a .NET Elasticsearch client named NEST.
 Additionally, some additional contents were also added to the "Guidelines_and_notes" folder:
 
