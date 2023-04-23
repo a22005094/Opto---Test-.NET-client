@@ -5,6 +5,9 @@ By: Rui Mata (a20064431), Rui Joaquim (a22005094)
 This project features a sample .NET Client, using Windows Forms, to test basic CRUD functionality of Elasticsearch, by using a .NET Elasticsearch client named NEST.
 Additionally, some additional contents were also added to the "Guidelines_and_notes" folder:
 
+Example architecture of the expected flow from initial data insertion (Unity mobile component) to data visualization (Kibana): 
+[![arch-diagram.png](https://i.postimg.cc/JzgsyKP9/arch-diagram.png)](https://postimg.cc/PCWX9bG4)
+
 ## .DLLs to be used in the Unity project
 After analysis and testing of the correct .DLL files to be used in the Unity project, the stable versions and their dependencies have been placed here to allow easier transition to the Unity + Elasticsearch integration further on.
 
