@@ -1,0 +1,64 @@
+{
+    "exercises": {
+        "aliases": {},
+        "mappings": {
+            "properties": {
+                "challengeId": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                },
+                "deviceId": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                },
+                "durationSeconds": {
+                    "type": "short"
+                },
+                "score": {
+                    "type": "short"
+                },
+                "startAt": {
+                    "type": "date"
+                },
+                "userId": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                }
+            }
+        },
+        "settings": {
+            "index": {
+                "routing": {
+                    "allocation": {
+                        "include": {
+                            "_tier_preference": "data_content"
+                        }
+                    }
+                },
+                "number_of_shards": "1",
+                "provided_name": "exercises",
+                "creation_date": "1682251397070",
+                "number_of_replicas": "1",
+                "uuid": "XvUAXor1TuO1Q_HnQRK6Sg",
+                "version": {
+                    "created": "8070099"
+                }
+            }
+        }
+    }
+}

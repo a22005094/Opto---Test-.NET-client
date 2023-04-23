@@ -1,0 +1,92 @@
+{
+    "sessions": {
+        "aliases": {},
+        "mappings": {
+            "properties": {
+                "deviceId": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                },
+                "endAt": {
+                    "type": "date"
+                },
+                "exercises": {
+                    "properties": {
+                        "challengeId": {
+                            "type": "text",
+                            "fields": {
+                                "keyword": {
+                                    "type": "keyword",
+                                    "ignore_above": 256
+                                }
+                            }
+                        },
+                        "deviceId": {
+                            "type": "text",
+                            "fields": {
+                                "keyword": {
+                                    "type": "keyword",
+                                    "ignore_above": 256
+                                }
+                            }
+                        },
+                        "durationSeconds": {
+                            "type": "short"
+                        },
+                        "score": {
+                            "type": "short"
+                        },
+                        "startAt": {
+                            "type": "date"
+                        },
+                        "userId": {
+                            "type": "text",
+                            "fields": {
+                                "keyword": {
+                                    "type": "keyword",
+                                    "ignore_above": 256
+                                }
+                            }
+                        }
+                    }
+                },
+                "startAt": {
+                    "type": "date"
+                },
+                "userId": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                }
+            }
+        },
+        "settings": {
+            "index": {
+                "routing": {
+                    "allocation": {
+                        "include": {
+                            "_tier_preference": "data_content"
+                        }
+                    }
+                },
+                "number_of_shards": "1",
+                "provided_name": "sessions",
+                "creation_date": "1682251397029",
+                "number_of_replicas": "1",
+                "uuid": "F-gfpWvGSJaiDZPlRS2JIg",
+                "version": {
+                    "created": "8070099"
+                }
+            }
+        }
+    }
+}

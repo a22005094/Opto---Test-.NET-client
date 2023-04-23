@@ -1,0 +1,151 @@
+// Example data in 'Exercises' index
+
+{
+    "took": 187,
+    "timed_out": false,
+    "_shards": {
+        "total": 1,
+        "successful": 1,
+        "skipped": 0,
+        "failed": 0
+    },
+    "hits": {
+        "total": {
+            "value": 720,
+            "relation": "eq"
+        },
+        "max_score": 1.0,
+        "hits": [
+            {
+                "_index": "exercises",
+                "_id": "6Zx5rocBr8IC5psb00V3",
+                "_score": 1.0,
+                "_source": {
+                    "deviceId": "device_hash_1",
+                    "userId": "user_hash_1",
+                    "challengeId": "challenge_hash_7",
+                    "durationSeconds": 1500,
+                    "score": 1,
+                    "startAt": "2023-06-12T16:02:44.4102320"
+                }
+            },
+            {
+                "_index": "exercises",
+                "_id": "6px5rocBr8IC5psb00V3",
+                "_score": 1.0,
+                "_source": {
+                    "deviceId": "device_hash_1",
+                    "userId": "user_hash_1",
+                    "challengeId": "challenge_hash_6",
+                    "durationSeconds": 660,
+                    "score": 2,
+                    "startAt": "2023-08-05T09:55:53.4102320"
+                }
+            },
+            {
+                "_index": "exercises",
+                "_id": "65x5rocBr8IC5psb00V3",
+                "_score": 1.0,
+                "_source": {
+                    "deviceId": "device_hash_1",
+                    "userId": "user_hash_1",
+                    "challengeId": "challenge_hash_7",
+                    "durationSeconds": 780,
+                    "score": 3,
+                    "startAt": "2023-08-20T23:59:39.4102320"
+                }
+            },
+            {
+                "_index": "exercises",
+                "_id": "7Jx5rocBr8IC5psb00V3",
+                "_score": 1.0,
+                "_source": {
+                    "deviceId": "device_hash_1",
+                    "userId": "user_hash_1",
+                    "challengeId": "challenge_hash_5",
+                    "durationSeconds": 960,
+                    "score": 1,
+                    "startAt": "2023-06-09T19:31:37.4102320"
+                }
+            },
+            {
+                "_index": "exercises",
+                "_id": "7Zx5rocBr8IC5psb00V4",
+                "_score": 1.0,
+                "_source": {
+                    "deviceId": "device_hash_1",
+                    "userId": "user_hash_1",
+                    "challengeId": "challenge_hash_3",
+                    "durationSeconds": 1440,
+                    "score": 5,
+                    "startAt": "2023-07-13T05:17:22.4102320"
+                }
+            },
+            {
+                "_index": "exercises",
+                "_id": "7px5rocBr8IC5psb00V4",
+                "_score": 1.0,
+                "_source": {
+                    "deviceId": "device_hash_1",
+                    "userId": "user_hash_1",
+                    "challengeId": "challenge_hash_3",
+                    "durationSeconds": 1380,
+                    "score": 5,
+                    "startAt": "2023-06-13T18:07:29.4102320"
+                }
+            },
+            {
+                "_index": "exercises",
+                "_id": "75x5rocBr8IC5psb00V4",
+                "_score": 1.0,
+                "_source": {
+                    "deviceId": "device_hash_1",
+                    "userId": "user_hash_1",
+                    "challengeId": "challenge_hash_9",
+                    "durationSeconds": 1020,
+                    "score": 4,
+                    "startAt": "2023-05-10T20:49:54.4102320"
+                }
+            },
+            {
+                "_index": "exercises",
+                "_id": "8Jx5rocBr8IC5psb00V4",
+                "_score": 1.0,
+                "_source": {
+                    "deviceId": "device_hash_1",
+                    "userId": "user_hash_1",
+                    "challengeId": "challenge_hash_2",
+                    "durationSeconds": 1260,
+                    "score": 3,
+                    "startAt": "2023-10-14T06:08:48.4102320"
+                }
+            },
+            {
+                "_index": "exercises",
+                "_id": "8Zx5rocBr8IC5psb00V4",
+                "_score": 1.0,
+                "_source": {
+                    "deviceId": "device_hash_1",
+                    "userId": "user_hash_1",
+                    "challengeId": "challenge_hash_9",
+                    "durationSeconds": 1560,
+                    "score": 2,
+                    "startAt": "2023-09-26T05:32:25.4102320"
+                }
+            },
+            {
+                "_index": "exercises",
+                "_id": "8px5rocBr8IC5psb00V4",
+                "_score": 1.0,
+                "_source": {
+                    "deviceId": "device_hash_1",
+                    "userId": "user_hash_1",
+                    "challengeId": "challenge_hash_7",
+                    "durationSeconds": 1140,
+                    "score": 5,
+                    "startAt": "2023-09-09T11:29:25.4102320"
+                }
+            }
+        ]
+    }
+}

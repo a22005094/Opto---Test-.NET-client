@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <StartupObject></StartupObject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EPPlus" Version="6.2.2" />
+    <PackageReference Include="NEST" Version="7.17.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Guidelines_and_notes\collectionPostman\" />
+    <Folder Include="Guidelines_and_notes\colocar_indexes_Sessions_e_Exercises\" />
+    <Folder Include="Guidelines_and_notes\notepadsVM\" />
+    <Folder Include="Guidelines_and_notes\pastasInstalacaoNaVM\" />
+  </ItemGroup>
+
+</Project>

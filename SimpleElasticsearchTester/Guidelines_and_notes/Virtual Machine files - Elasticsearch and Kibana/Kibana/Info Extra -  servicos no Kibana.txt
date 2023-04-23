@@ -1,0 +1,56 @@
+
+nota: a titulo de demonstração, poderá ser útil gerarmos "Sample data" que o Kibana fornece, para testes de consulta de dados & criação de Visualizações e Dashboards.
+
+no Kibana homepage, temos várias soluções "promovidas":
+
+--------
+Elastic Enterprise Search (App Search + Workplace Search):
+--------
+- App Search: adicionar search capabilities para um Website/Aplicação
+- Workplace Search: permite que todo o conteúdo da equipa seja pesquisável, ao unificar os conteúdos num só lugar.
+
+--------
+Elastic Observability
+--------
+- Está mais orientado à monitorização do Sistema.
+- Visualizar logs, monitorizar aplicações e serviços usando o APM
+- Track metrics, system uptime, etc...
+
+--------
+Elastic Security
+--------
+- Ligado à segurança dos dados (?)
+- Fornece apps para deteção, alerta e análise em real-time de eventos de segurança nos dados
+
+---------------------------------
+Submenus de 'Analytics' (Kibana):
+---------------------------------
+
+> DISCOVER: 
+ - Pesquisar & drills sobre os dados que temos
+ - Ainda sem visualização, é mais só para consulta.
+
+> DASHBOARD:
+ - Criar coleções de visualizações (charts, graphs...) sobre Datasets.
+ - Pode-se depois explorar os dados usando Filtros e Queries.
+
+> CANVAS:
+ - Permite criar "infográficos" interactivos "ao vivo" sobre os dados
+
+> MAPS (meh):
+ - Para analisar geodados
+
+> Machine Learning (meh?):
+ - Análise de anomalias (powered by Machine Learning)
+ - Análise de dados (powered by Machine Learning)
+
+> GRAPHS:
+ - Permite descobrir relações significantes nos nossos dados (?)
+
+> STACK MANAGEMENT:
+ - Serve para gerir o nosso Deployment;
+ - Permite:
+ -   -> "Ingest" de dados;
+ -   -> Gestão de dados;
+ -   -> Configurar Alertas e Reporting;
+ -   -> Manage Access, ...
